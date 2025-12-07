@@ -28,7 +28,8 @@ function GameBoard({ positionY }) {
         smoothness={4}
       >
         <meshPhysicalMaterial
-          transmission={1}
+          color="#88ccff"
+          transmission={0.9}
           roughness={0}
           thickness={0.5}
           envMapIntensity={1}
